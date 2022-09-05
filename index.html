@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://use.typekit.net/baz5twn.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script defer src="./src/javascript/Dashboard.js"></script>
+    <script defer src="./src/javascript/Modal.js"></script>
+
+    <link rel="stylesheet" href="./src/css/global.css" />
+    <link rel="stylesheet" href="./src/css/Dashboard.module.css" />
+    <link rel="stylesheet" href="./src/css/Banner.module.css" />
+    <link rel="stylesheet" href="./src/css/Work.module.css" />
+    <link rel="stylesheet" href="./src/css/Card.module.css" />
+    <link rel="stylesheet" href="./src/css/Wine.module.css" />
+    <link rel="stylesheet" href="./src/css/Wineverso.module.css" />
+   
+
+    <title>Wine</title>
+  </head>
+  <body>
+  
+    <header>
+      <img class="logo" src="./src/assets/desafio-frontend-assets/logo-wine.svg" />
+    </header>
+
+    <section class="banner">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper" id="swiper-wrapper">
+         <div class="swiper-slide swiper-slide1">
+          <img
+            src="./src/assets/desafio-frontend-assets/banner-01-desktop.png"
+          />
+        </div>
+
+        <div class="swiper-slide swiper-slide1">
+          <img
+            src="./src/assets/desafio-frontend-assets/banner-02-desktop.png"
+            />
+        </div>
+
+        <div class="swiper-slide swiper-slide1">
+          <img
+            src="./src/assets/desafio-frontend-assets/banner-03-desktop.png"
+          />
+        </div>
+
+      </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    
+    </section>
+
+    <section class="work-container">
+      <div class="text">
+        <h1>Entenda como funciona:</h1>
+        <h2>
+          No Clube Wine você recebe, todo mês, 2 rótulos escolhidos a dedo das
+          melhores vinícolas do mundo!
+        </h2>
+      </div>
+
+      <div class="work-content">
+        <div class="content">
+          <img
+            src="./src/assets/desafio-frontend-assets/foto-voce-escolhe.png"
+            alt=""
+          />
+          <div class="content-text">
+            <h1>Você escolhe!</h1>
+            <h2>
+              São 6 Clubes diferentes e você escolhe a WineBox que mais combina
+              com você.
+            </h2>
+          </div>
+        </div>
+        <div class="content">
+          <img
+            src="./src/assets/desafio-frontend-assets/foto-curadoria.png"
+            alt=""
+          />
+          <div class="content-text">
+            <h1>Curadoria</h1>
+            <h2>
+              Nossos Winehunters recebem amostras de exemplares e fazem diversas
+              análises para seleção dos melhores vinhos.
+            </h2>
+          </div>
+        </div>
+        <div class="content">
+          <img
+            src="./src/assets/desafio-frontend-assets/foto-comodidade.png"
+            alt=""
+          />
+          <div class="content-text">
+            <h1>Comodidade</h1>
+            <h2>Todo mês, você recebe a sua WineBox no local que escolher.</h2>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="swiper mySwiper2">
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide2">
+            <img
+            src="./src/assets/desafio-frontend-assets/foto-voce-escolhe.png"
+            alt=""
+            />
+            <div class="content-text">
+              <h1>Você escolhe!</h1>
+              <h2>
+                São 6 Clubes diferentes e você escolhe a WineBox que mais combina
+                com você.
+              </h2>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide2">
+            <img
+            src="./src/assets/desafio-frontend-assets/foto-curadoria.png"
+            alt=""
+          />
+
+          <div class="content-text">
+            <h1>Curadoria</h1>
+            <h2>
+              Nossos Winehunters recebem amostras de exemplares e fazem diversas
+              análises para seleção dos melhores vinhos.
+            </h2>
+          </div>
+          </div>
+          <div class="swiper-slide swiper-slide2">
+            <img
+            src="./src/assets/desafio-frontend-assets/foto-comodidade.png"
+            alt=""
+            />
+
+            <div class="content-text">
+              <h1>Comodidade</h1>
+              <h2>Todo mês, você recebe a sua WineBox no local que escolher.</h2>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+   
+
+    <div id="myModal" >
+      
+      
+    </div>
+
+    
+    <section class="cards-container">
+      <h1>Como Sócio Wine você possui muitos benefícios</h1>
+      <div class="cards">
+        <button id="btn1" class="card" id="1">
+          <div class="tangran">
+            <div>
+              <img src="./src/assets/desafio-frontend-assets/tangran-01.png" />
+            </div>
+          </div>
+          <div class="card-content">
+            <img
+              class="icon"
+              src="./src/assets/desafio-frontend-assets/icone-desconto.png"
+            />
+            <h1>15% OFF em todas as compras na Wine</h1>
+            <div>
+              <img
+                class="card-arrow"
+                src="./src/assets/desafio-frontend-assets/arrow-right.svg"
+              />
+            </div>
+          </div>
+        </button>
+
+        <button id="btn2" class="card" id="2">
+          <div class="tangran">
+            <div>
+              <img src="./src/assets/desafio-frontend-assets/tangran-02.png" />
+            </div>
+          </div>
+          <div class="card-content">
+            <img
+              class="icon"
+              src="./src/assets/desafio-frontend-assets/icone-cashback.png"
+            />
+            <h1>3x mais cashback pelo WineUP</h1>
+            <div>
+              <img
+                class="card-arrow"
+                src="./src/assets/desafio-frontend-assets/arrow-right.svg"
+              />
+            </div>
+          </div>
+        </button>
+
+        <button id="btn3" class="card" id="3">
+          <div class="tangran">
+            <div>
+              <img src="./src/assets/desafio-frontend-assets/tangran-03.png" />
+            </div>
+          </div>
+
+          <div class="card-content">
+            <img
+              class="icon"
+              src="./src/assets/desafio-frontend-assets/icone-entrega.png"
+            />
+            <h1>Taxa de entrega diferenciada</h1>
+            <div>
+              <img
+              class="card-arrow"
+              src="./src/assets/desafio-frontend-assets/arrow-right.svg"
+            />
+            </div>
+           
+          </div>
+        </button>
+        <button id="btn4" class="card" id="4">
+          <div class="tangran">
+            <div>
+              <img src="./src/assets/desafio-frontend-assets/tangran-04.png" />
+            </div>
+          </div>
+          <div class="card-content">
+            <img
+              class="icon"
+              src="./src/assets/desafio-frontend-assets/icone-brindes.png"
+            />
+            <h1>Brindes e cupons no Indique Amigos</h1>
+            <div>
+              <img
+              class="card-arrow"
+              src="./src/assets/desafio-frontend-assets/arrow-right.svg"
+            />
+            </div>
+           
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <section class="wine-container">
+      <h1>Confira nossos vinhos</h1>
+      <div id="wine-content"></div>
+    </section>
+
+    <section class="wineverso-container">
+      <div class="wineverso-content">
+        <div class="wineverso-text">
+          <img
+            class="wineverso-logo"
+            src="./src/assets/desafio-frontend-assets/logo-wineverso.svg"
+          />
+          <p>
+            Fique por dentro dos nossos conteúdos através do Podcast da Wine, o
+            Wineverso. Aproveite para abrir um delicioso vinho e aperte o play
+            para desbravar as curiosidades deste universo com a gente neste
+            período em casa!
+          </p>
+          <div class="wineverso-icons">
+            <img src="./src/assets/desafio-frontend-assets/spotify.png" />
+            <img src="./src/assets/desafio-frontend-assets/castbox.png" />
+            <img src="./src/assets/desafio-frontend-assets/deezer.png" />
+            <img src="./src/assets/desafio-frontend-assets/apple.png" />
+          </div>
+        </div>
+        <div class="wineverso-podcast">
+          <img
+            class="capa"
+            src="./src/assets/desafio-frontend-assets/capa-podcast.png"
+          />
+          <img
+            class="player"
+            src="./src/assets/desafio-frontend-assets/player.svg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <img class="logo" src="./src/assets/desafio-frontend-assets/logo-wine.svg" />
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+</html>

@@ -1,0 +1,105 @@
+.cards-container {
+  width: 100%;
+  height: 18.5rem;
+  background-color: #ee3e80;
+  background-image: url("../assets/desafio-frontend-assets/bg-textura-wine.png");
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-container h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.cards {
+  width: 73.188rem;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.card {
+  background: #ffffff;
+  width: 17.125rem;
+  height: 5.188rem;
+  border: none;
+  border-radius: 4.6px;
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  transition: all ease 0.3s;
+  transform: translateY(-10px);
+}
+
+.tangran {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.tangran img {
+  border-radius: 4px;
+}
+
+.card-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 4px;
+}
+
+.card-content h1 {
+  width: 100%;
+  color: #555555;
+  font-weight: 400;
+  font-size: 0.813rem;
+  line-height: 1rem;
+  padding: 60px 12px;
+}
+
+.card-content > img {
+  width: 41.36px;
+  margin-left: -1.25rem;
+  object-fit: contain;
+}
+
+@media (max-width: 700px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: auto;
+    width: 100%;
+  }
+  .cards-container > h1 {
+    font-size: 1.25rem;
+    line-height: 24px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
+  .card {
+    width: 335px;
+  }
+}
