@@ -29,17 +29,17 @@ function bannerMobile() {
     document.getElementById("swiper-wrapper").innerHTML = `
       <div class="swiper-slide swiper-slide1">
         <img
-          src="../assets/desafio-frontend-assets/banner-01-mobile.png"
+          src="./src/assets/desafio-frontend-assets/banner-01-mobile.png"
         />
       </div>
       <div class="swiper-slide swiper-slide1">
         <img
-          src="../assets/desafio-frontend-assets/banner-02-mobile.png"
+          src="./src/assets/desafio-frontend-assets/banner-02-mobile.png"
         />
       </div>
       <div class="swiper-slide swiper-slide1">
         <img
-          src="../assets/desafio-frontend-assets/banner-03-mobile.png"
+          src="./src/assets/desafio-frontend-assets/banner-03-mobile.png"
         />
       </div>`;
   } else if (screen.width < 1024 || screen.height < 768) {
